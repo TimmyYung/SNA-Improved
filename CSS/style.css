@@ -22,7 +22,7 @@ a, button{
     align-items: center;
     width: 100%;
     margin: auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background: linear-gradient(rgba(43, 41, 41, 0.5), rgba(43, 41, 41, 0.5));
 }
 
 .about{
@@ -85,17 +85,15 @@ a, button{
 }
 
 .article{
-    border: 1px solid white;
-    height: 40vh;
+    border: 0.1vw solid gray;
+    height: 38.6vh;
     width: 60vw;
     text-align: left;
 }
 
 .article img{
     float:left;
-    margin-left: 0.5vw;
-    margin-top: 0.5vh;
-    height: 38.5vh;
+    height: 38.3vh;
 }
 
 .article h1, .article p, .article h2{
@@ -105,10 +103,10 @@ a, button{
 }
 
 .article p{
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .article h2{
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 0.8vw;
 }
