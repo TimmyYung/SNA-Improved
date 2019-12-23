@@ -1,33 +1,36 @@
 .box{
-    width: 450px;
+    display: inline-block;
+    width: 30vw;
     background: rgba(0, 0, 0, 0.4);
-    padding: 40px;
+    padding: 8vh;
     text-align: center;
     margin: auto;
-    margin-top: 5%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
+    margin-left: -15px;
+    margin-top: 10px;
 }
 
 .box-img{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 35vh;
+    height: 35vh;
 }
 
 .box h1{
-    font-size: 40px;
-    letter-spacing: 4px;
+    font-size: 7vh;
+    letter-spacing: 0.5vh;
     font-weight: 100;
 }
 .box h5{
-    font-size: 20px;
-    letter-spacing: 3px;
+    font-size: 4vh;
+    letter-spacing: 0.2vh;
     font-weight: 100;
 }
 
 .box p{
     text-align: justify;
+    margin-top: 2vh;
 }
 
 ul{
@@ -37,14 +40,14 @@ ul{
 
 .box li{
     display: inline-block;
-    margin: 6px;
+    margin: 3vh;
     list-style: none;
 }
 
 .box li a{
     color: white;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 10vh;
     transition: all ease-in-out 250ms;
 }
 
